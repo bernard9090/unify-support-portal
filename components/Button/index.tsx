@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button = (props: ButtonProps) => {
 
     return (
-        <button onClick={props.onClick}>{props.text}</button>
+        <button style={{backgroundColor:"red", padding:"0.4rem 1.2rem", border:"none", color:"white"}} onClick={props.onClick}>{props.text}</button>
     )
 
 };
