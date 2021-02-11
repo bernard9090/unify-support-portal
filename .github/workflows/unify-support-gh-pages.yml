@@ -24,7 +24,7 @@ jobs:
         uses: actions/setup-node@v1
       - run: npm install
       - run: npm run prod
-      - touch out/.nojekyll
+      - run: touch out/.nojekyll
 
 
       - name: Deploy 🚀
