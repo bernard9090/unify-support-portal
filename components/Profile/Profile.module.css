@@ -1,0 +1,29 @@
+.container{
+    font-family: HK-Normal, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #313232;
+}
+
+.initials{
+
+    display: flex;align-items: center;
+    justify-content: center;
+    background: #56714D;
+    mix-blend-mode: normal;
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+.initials span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 1;
+
+    color: #FFFFFF;
+}

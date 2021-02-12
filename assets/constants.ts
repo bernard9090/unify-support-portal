@@ -1,3 +1,8 @@
-export const colors = {
-    PRIMARY:"#fff"
+export default {
+    COLOR_PRIMARY:"#3989DD",
+    COLOR_PAGE_BACKGROUND:"#FAFBFC",
+    COLOR_GRAY:"#9D9D9D",
+    COLOR_BORDER:"#D2D2D2",
+    CARD_PADDING:"3rem"
+
 }

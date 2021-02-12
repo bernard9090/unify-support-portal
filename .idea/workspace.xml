@@ -2,7 +2,240 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231fdc9a-a5aa-48af-a887-7045380f20c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/unify-support-gh-pages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/unify-support-gh-pages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OFL-FAQ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-BoldLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-BoldLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-LegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-LightLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-LightLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-MediumLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-MediumLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-RegularLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-SemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-SemiBoldLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/OTF/HKGrotesk-SemiBoldLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-BoldLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-BoldLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-LegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-LightLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-LightLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-MediumLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-MediumLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-RegularLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBoldLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBoldLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-BoldLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-LightLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-MediumLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-RegularLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-RegularLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-RegularLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/WEB/HKGrotesk-SemiBoldLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/._OFL-FAQ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/._OTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/._TTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/._WEB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-BoldLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-BoldLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-Italic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-LegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-LightLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-LightLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-MediumLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-MediumLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-RegularLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-SemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-SemiBoldLegacy.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/OTF/._HKGrotesk-SemiBoldLegacyItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-BoldLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-BoldLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-LegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-LightLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-LightLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-MediumLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-MediumLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-RegularLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-SemiBoldLegacy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/TTF/._HKGrotesk-SemiBoldLegacyItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-BoldLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-LightLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-MediumLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-RegularLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-RegularLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-RegularLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacy.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacyItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacyItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/hk-grotesk/__MACOSX/WEB/._HKGrotesk-SemiBoldLegacyItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Account/Account.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Account/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button/Button.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Card/Card.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Card/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/DashboardLayout/Layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/DashboardLayout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/Sidebar/Sidebar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/Sidebar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Dashboard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,110 +248,182 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/next.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="709" selection-start-column="709" selection-end-column="709" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Button/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/constants.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/_app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.github/workflows/unify-support-gh-pages.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/reducers/_reducer.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/actions/exampleAction.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6123407">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Dashboard/DashboardLayout/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Dashboard/Header/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/dashboard/home.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Account/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/index.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Dashboard/Sidebar/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="326">
+                  <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Card/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="39" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/constants.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Profile/index.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Dashboard/DashboardLayout/Layout.module.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Dashboard/Sidebar/Sidebar.module.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/styles/globals.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/components/Account/Account.module.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/components/Profile/Profile.module.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -130,7 +435,6 @@
       <list>
         <option value="$PROJECT_DIR$/components/Button.tsx" />
         <option value="$PROJECT_DIR$/components/Button/Button.tsx" />
-        <option value="$PROJECT_DIR$/components/index.ts" />
         <option value="$PROJECT_DIR$/store/store.ts" />
         <option value="$PROJECT_DIR$/store/data.ts" />
         <option value="$PROJECT_DIR$/store/types.ts" />
@@ -139,16 +443,35 @@
         <option value="$PROJECT_DIR$/store/index.ts" />
         <option value="$PROJECT_DIR$/pages/_app.js" />
         <option value="$PROJECT_DIR$/store/actions/index.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/store/reducers/_reducer.ts" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
-        <option value="$PROJECT_DIR$/assets/constants.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.github/workflows/unift-support.yml" />
         <option value="$PROJECT_DIR$/next.config.js" />
         <option value="$PROJECT_DIR$/out/index.html" />
-        <option value="$PROJECT_DIR$/components/Button/index.tsx" />
         <option value="$PROJECT_DIR$/.github/workflows/unify-support-gh-pages.yml" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/components/Input/Input.module.css" />
+        <option value="$PROJECT_DIR$/components/Button/Button.module.css" />
+        <option value="$PROJECT_DIR$/components/Button/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Input/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Dashboard/index.ts" />
+        <option value="$PROJECT_DIR$/components/Dashboard/DashboardLayout/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Dashboard/Sidebar/Sidebar.module.css" />
+        <option value="$PROJECT_DIR$/components/Dashboard/DashboardLayout/Layout.module.css" />
+        <option value="$PROJECT_DIR$/components/Dashboard/Header/Header.module.css" />
+        <option value="$PROJECT_DIR$/assets/constants.ts" />
+        <option value="$PROJECT_DIR$/components/Card/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Card/Card.module.css" />
+        <option value="$PROJECT_DIR$/pages/dashboard/home.tsx" />
+        <option value="$PROJECT_DIR$/components/Account/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Profile/index.tsx" />
+        <option value="$PROJECT_DIR$/components/index.ts" />
+        <option value="$PROJECT_DIR$/components/Dashboard/Header/index.tsx" />
+        <option value="$PROJECT_DIR$/components/Profile/Profile.module.css" />
+        <option value="$PROJECT_DIR$/components/Dashboard/Sidebar/index.tsx" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/styles/globals.css" />
+        <option value="$PROJECT_DIR$/components/Account/Account.module.css" />
       </list>
     </option>
   </component>
@@ -196,7 +519,49 @@
             <path>
               <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
               <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="unify-support-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unify-support-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,14 +573,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Profile" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Profile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Dashboard" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
       <recent name="$PROJECT_DIR$/components/Button" />
     </key>
   </component>
@@ -241,26 +613,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613052009873</updated>
-      <workItem from="1613052011663" duration="15124000" />
+      <workItem from="1613052011663" duration="33808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15124000" />
+    <option name="totallyTimeSpent" value="33808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="GraphQL" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="JenkinsLogs" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -352,20 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/actions/exampleAction.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -377,23 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/constants.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,34 +753,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/next.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Button/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/unify-support-gh-pages.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/next.config.js">
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Italic.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBoldLegacy.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-SemiBold.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Regular.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-BoldLegacy.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-Light.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-BoldLegacyItalic.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-MediumItalic.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fonts/hk-grotesk/TTF/HKGrotesk-RegularLegacy.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/Home.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Button/Button.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Button/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Input/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Input/Input.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/DashboardLayout/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/DashboardLayout/Layout.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/constants.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Card/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Card/Card.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dashboard/home.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/Header/Header.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/Sidebar/Sidebar.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Account/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Profile/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Profile/Profile.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/Header/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Dashboard/Sidebar/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/globals.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Account/Account.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

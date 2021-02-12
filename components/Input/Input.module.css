@@ -1,0 +1,35 @@
+.input_container{
+    height: 2.2rem;
+    border: 1px solid #D2D2D2;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 0 0.6rem;
+    outline: none;
+    font-size: 0.9rem;
+
+}
+.input_container:focus,
+.input_container:hover{
+    border: 1px solid #747474;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width:350px;
+    position: relative;
+    margin: 0.5rem 0;
+
+}
+
+.error_string{
+    color:red;
+    font-size: 12px;
+    margin: 0.4rem 0;
+}
+
+.label{
+    font-size: 0.9rem;
+    margin: 0.4rem 0;
+}
