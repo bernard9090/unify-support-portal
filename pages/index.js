@@ -20,7 +20,9 @@ export default function Home() {
 
             <p className={"text"}>This is a normal text</p>
 
-            <Input placeholder={"Enter something"}
+            <Input inputProps={{
+                placeholder:"Enter name here"
+            }}
                    error={true}
                    errorString={"Enter name"}
                    useLabel={true}
@@ -28,7 +30,10 @@ export default function Home() {
                    required
             />
 
-            <Input placeholder={"Enter password"}
+            <Input
+                inputProps={{
+                    placeholder:"Enter password here"
+                }}
                    error={true}
                    errorString={"please enter password"}
                    useLabel={true}

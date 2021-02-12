@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'HK-Normal';
-  src: url("../assets/fonts/hk-grotesk/TTF/HKGrotesk-Regular.ttf") format('truetype');
-  src: url("../assets/fonts/hk-grotesk/OTF/HKGrotesk-Regular.otf");
+  src: url("/fonts/hk-grotesk/TTF/HKGrotesk-Regular.ttf") format('truetype');
+  src: url("/fonts/hk-grotesk/OTF/HKGrotesk-Regular.otf");
 }
 
 @font-face {
   font-family: 'HK-Bold';
-  src: url("../assets/fonts/hk-grotesk/TTF/HKGrotesk-Bold.ttf") format('truetype');
-  src: url("../assets/fonts/hk-grotesk/OTF/HKGrotesk-Bold.otf");
+  src: url("/fonts/hk-grotesk/TTF/HKGrotesk-Bold.ttf") format('truetype');
+  src: url("/fonts/hk-grotesk/OTF/HKGrotesk-Bold.otf");
 }
 
 @font-face {
   font-family: 'HK-Light';
-  src: url("../assets/fonts/hk-grotesk/TTF/HKGrotesk-Light.ttf") format('truetype');
-  src: url("../assets/fonts/hk-grotesk/OTF/HKGrotesk-Light.otf");
+  src: url("/fonts/hk-grotesk/TTF/HKGrotesk-Light.ttf") format('truetype');
+  src: url("/fonts/hk-grotesk/OTF/HKGrotesk-Light.otf");
 }
 
 :root{

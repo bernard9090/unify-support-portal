@@ -16,7 +16,7 @@ const Input = (props: InputProps) => {
     return(
         <div className={style.container}>
             {props.useLabel && <div className={style.label}>{props.label} {props.required && <span style={{color:"red"}}>*</span>}</div>}
-            <input {...props.inputProps} className={style.input_container} {...props} />
+            <input {...props.inputProps} className={style.input_container}  />
             {props.error && <div className={style.error_string}>{props.errorString}</div>}
 
         </div>
