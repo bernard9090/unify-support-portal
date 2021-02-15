@@ -1,0 +1,14 @@
+import React from "react"
+import style from "./Table.module.css"
+
+
+const TableRow = (props:any) => {
+
+    return (
+        <div className={style.table__row}>
+            {props.children}
+        </div>
+    )
+};
+
+export default TableRow
