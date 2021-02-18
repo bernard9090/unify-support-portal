@@ -1,0 +1,60 @@
+.modal__container{
+    position: absolute;
+    backdrop-filter: blur(10);
+    background: rgba(44, 44, 44, 0.64);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.show{
+    display: flex;
+    animation: moveContentIn ease-in-out 500ms;
+}
+
+.hide{
+    display: none;
+    animation: hideContent ease-in-out 500ms;
+}
+
+
+
+
+
+
+.item__wrapper{
+    background: white;
+    border-radius: 0.2rem;
+    padding: 2.5rem 4.2rem;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    min-width: 40rem;
+
+
+
+}
+
+
+
+@keyframes moveContentIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes hideContent {
+    100%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
+}

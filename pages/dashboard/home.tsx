@@ -1,10 +1,13 @@
-import React from "react"
+import React, {useState} from "react"
 import Head from "next/head"
-import {Dashboard, Card, Input, Table} from "components"
+import {Dashboard, Card, Input, Table, Modal} from "components"
 
 
 
 const Home = (props:any) => {
+
+    let [showModal, setShowModal] = useState(false);
+    let [selectedItem, setSelectedItem] = useState({});
 
 
     return (
@@ -27,7 +30,12 @@ const Home = (props:any) => {
                                <div style={{
                                    marginTop:"2rem"
                                }}>
-                                   <Table data={[
+                                   <Table
+                                       onRowClick={()=>{
+                                           setShowModal(true)
+                                       }}
+                                       headers={["Sender ID", "Date", "MSISDN", "Status"]}
+                                       data={[
                                    {
                                        senderId:"Sender ID 1",
                                        date:"31st March 2021",
@@ -40,12 +48,24 @@ const Home = (props:any) => {
                                        msisdn:"+233501541341",
                                        status:"PENDING"
                                    }
-                                       ]} headers={["Sender ID", "Date", "MSISDN", "Status"]}/>
+                                       ]} />
                                </div>
                            </Card>
                        </div>
                    </div>
                </Dashboard>
+
+
+               <Modal show={showModal} close={()=>{
+                   setShowModal(false)
+               }}>
+                   <span className={"text-header"}>Review Sender ID</span>
+                   <div>
+                       <div >
+
+                       </div>
+                   </div>
+               </Modal>
            </main>
 
        </div>
