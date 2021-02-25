@@ -30,13 +30,19 @@ const ModalContainer = (props: ModalProps) => {
 
             <div className={style.item__wrapper}>
                 <div >
-                   <span onClick={props.close}>
-                        {/*<ion-icon name="close-outline" style={{color:"red", fontSize: 30}}/>*/}
+                   <span style={{
+                       position:"absolute",
+                       top:32,
+                       right:32
+                   }} onClick={props.close}>
+                        <ion-icon name="close-outline" style={{color: "red", fontSize: 30}}/>
                    </span>
                 </div>
-                {
-                    props.children
-                }
+                <div style={{marginTop:"2rem"}}>
+                    {
+                        props.children
+                    }
+                </div>
             </div>
 
         </div>

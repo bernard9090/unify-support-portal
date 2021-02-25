@@ -25,6 +25,7 @@ const Button = (props: ButtonProps) => {
                    border: `1px solid ${props.color}`,
                    color: props.textColor,
                    cursor: props.loading ? "not-allowed":"pointer",
+                   borderRadius:"5px",
                    ...props.style
                }}
                className={`${style.button} ${props.inverse ? style.inverse :  style.normal}`}

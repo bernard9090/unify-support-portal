@@ -1,6 +1,6 @@
 .modal__container{
     position: absolute;
-    backdrop-filter: blur(10);
+    backdrop-filter: blur(4px);
     background: rgba(44, 44, 44, 0.64);
     top: 0;
     left: 0;
@@ -27,6 +27,7 @@
 
 
 .item__wrapper{
+    position: absolute;
     background: white;
     border-radius: 0.2rem;
     padding: 2.5rem 4.2rem;
@@ -34,9 +35,7 @@
     height: fit-content;
     margin: auto;
     min-width: 40rem;
-
-
-
+    z-index: 10000;
 }
 
 
