@@ -10,13 +10,19 @@
     "cypress": "npm run dev & cypress open"
   },
   "dependencies": {
+    "@phuocng/react-pdf-viewer": "^1.7.0",
+    "@react-pdf/renderer": "^1.6.13",
     "@types/react-redux": "^7.1.16",
+    "@types/react-toast-notifications": "^2.4.0",
     "next": "^10.0.6",
+    "pdf-viewer-reactjs": "^2.2.3",
+    "pdfjs-dist": "^2.6.347",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-modal": "^3.12.1",
     "react-redux": "^7.2.2",
     "react-spinners": "^0.10.4",
+    "react-toast-notifications": "^2.4.3",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
@@ -25,6 +31,7 @@
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
     "@types/node": "^14.14.25",
+    "@types/pdf-viewer-reactjs": "^2.2.1",
     "@types/react": "^17.0.1",
     "@types/react-modal": "^3.12.0",
     "cypress": "^6.5.0",

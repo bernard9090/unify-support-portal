@@ -1,8 +1,10 @@
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import Head from "next/head"
-import {Dashboard, Card, Input, Table, Modal, Button} from "components"
+import {Dashboard, Card, Input, Table, Modal, Button, PDFReader} from "components"
 import {fetchAllSenderIDs} from "../api";
-
+import {useSelector, useDispatch} from "react-redux";
+import {AuthAdmin} from "../@types";
+import {getToken} from "../../services/localService";
 
 interface SenderIdDetailsTypes {
 
@@ -11,11 +13,27 @@ interface SenderIdDetailsTypes {
 
 const Home = (props:any) => {
 
+    const dispatch = useDispatch();
+    const user:AuthAdmin = useSelector((state) => state.authReducer.user);
     let [showModal, setShowModal] = useState(false);
     let [selectedItem, setSelectedItem] = useState({});
     const [page, setPage] = useState("review");
+    const [loading, setLoading] = useState(false);
 
 
+    useEffect(()=>{
+        const token = getToken();
+        console.log(token);
+
+        fetchAllSenderIDs().then(resp => {
+            console.log(resp)
+        });
+    }, []);
+
+
+
+
+    // @ts-ignore
     const SenderIDDetailsPage = (senderId:SenderIdDetailsTypes) =>(
         <div>
             <div style={{
@@ -60,7 +78,7 @@ const Home = (props:any) => {
                 width:"fit-content",
                 background: "rgba(24, 119, 242, 0.05)",
                 minWidth:"400px"
-            }}>
+            }} onClick={()=>{setPage("pdf")}}>
                 <span> <ion-icon name="eye-outline" style={{color: "#1877F2", fontSize: 24, marginTop:"4px" }}/></span>
                 <span style={{marginLeft:"10px", color: "#1877F2"}}><b>View Attached Document</b></span>
             </div>
@@ -76,7 +94,10 @@ const Home = (props:any) => {
                     color:"white"
                 }} color={"#D83831"}/>
 
-                <Button text={"Accept"} style={{
+                <Button text={"Accept"} loading={loading} onClick={()=>{
+                    setLoading(true);
+                    setTimeout(()=>{ setLoading(false)}, 3000)
+                }} style={{
                     padding:"0 4rem",
                     height:44,
                     color:"white",
@@ -108,7 +129,7 @@ const Home = (props:any) => {
                     color:"#3989DD"
                 }} color={"#3989DD"} inverse={true}/>
 
-                <Button text={"Send"} style={{
+                <Button   text={"Send"} style={{
                     padding:"0 4rem",
                     height:44,
                     color:"white",
@@ -143,6 +164,7 @@ const Home = (props:any) => {
                                }}>
                                    <Table
                                        onRowClick={()=>{
+                                           setPage("review");
                                            setShowModal(true)
                                        }}
                                        headers={["Sender ID", "Date", "MSISDN", "Status"]}
@@ -173,7 +195,7 @@ const Home = (props:any) => {
                    <span className={"text-header"}>Review Sender ID</span>
 
                    {
-                       page === "review" ?  <SenderIDDetailsPage/> : <RejectSenderIDReason/>
+                       page === "review" ?  <SenderIDDetailsPage/> : page === "reject" ?  <RejectSenderIDReason/> : <PDFReader/>
                    }
 
                </Modal>
@@ -186,15 +208,14 @@ const Home = (props:any) => {
 
 };
 
-export async function getStaticProps(context:any) {
-    await fetchAllSenderIDs().then(resp => {
-        console.log(resp)
-    });
-    return {
-        props: {}, // will be passed to the page component as props
-    }
-}
-;
+// export async function getStaticProps(context:any) {
+//
+//
+//     return {
+//         props: {}, // will be passed to the page component as props
+//     }
+// }
+// ;
 
 
 export default Home;

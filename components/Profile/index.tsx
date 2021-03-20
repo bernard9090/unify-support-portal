@@ -1,18 +1,21 @@
 import React from "react"
 import style from "./Profile.module.css"
-
+import {AuthAdmin} from "../../pages/@types";
+import {useSelector} from "react-redux";
+import {generateInitials} from "../../services/localService";
 
 type name = string | "Support"
 
 const Profile = () => {
 
+    const user:AuthAdmin = useSelector((state) => state.authReducer.user);
+
     return (
         <div className={style.container}>
             <div className={style.initials}>
-                <span>SW</span>
+                <span>{generateInitials(user.username)}</span>
             </div>
-
-            Susan Will
+            {user.username}
 
         </div>
     )

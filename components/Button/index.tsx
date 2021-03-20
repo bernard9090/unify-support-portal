@@ -29,7 +29,7 @@ const Button = (props: ButtonProps) => {
                    ...props.style
                }}
                className={`${style.button} ${props.inverse ? style.inverse :  style.normal}`}
-               onClick={props.onClick}>{props.loading ? <ClipLoader size={20}  loading={props.loading} color={props.textColor}/> : props.text}</button>
+               onClick={props.onClick}>{props.loading ? <ClipLoader size={20}  loading={props.loading} color={props.inverse ? props.color : "#ffffff"}/> : props.text}</button>
 
            <style jsx>
                {

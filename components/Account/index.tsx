@@ -9,10 +9,9 @@ const Account = () => {
     return (
         <div className={style.container}>
             <div className={style.initials}>
-                <span>LW</span>
+                <span>S.A</span>
             </div>
-
-            Little Will
+            <span>Support Account</span>
 
         </div>
     )
