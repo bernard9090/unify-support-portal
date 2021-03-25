@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="231fdc9a-a5aa-48af-a887-7045380f20c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/CustomToast/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/PDFReader/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/@types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/localService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/actions/authActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/reducers/authReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Account/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Account/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Profile/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dashboard/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="231fdc9a-a5aa-48af-a887-7045380f20c0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,18 +410,17 @@
       <workItem from="1615286509120" duration="6302000" />
       <workItem from="1616137706439" duration="10874000" />
       <workItem from="1616162625214" duration="346000" />
-      <workItem from="1616213908174" duration="2297000" />
+      <workItem from="1616213908174" duration="2441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93726000" />
+    <option name="totallyTimeSpent" value="93870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,7 +436,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2951002" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2951002" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="JenkinsLogs" order="12" />
