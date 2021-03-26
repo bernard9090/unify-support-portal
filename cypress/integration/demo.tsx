@@ -11,3 +11,4 @@ describe('Demos a basic assertion', function () {
 
     })
 });
+export {}
