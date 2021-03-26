@@ -8,7 +8,7 @@ type name = string | "Support"
 
 const Profile = () => {
 
-    const user:AuthAdmin = useSelector((state) => state.authReducer.user);
+    const user:AuthAdmin = useSelector((state: RootStateOrAny) => state.authReducer.user);
 
     return (
         <div className={style.container}>
