@@ -1,7 +1,7 @@
 import React from "react"
 import style from "./Profile.module.css"
 import {AuthAdmin} from "../../pages/@types";
-import {useSelector} from "react-redux";
+import {useSelector, RootStateOrAny} from "react-redux";
 import {generateInitials} from "../../services/localService";
 
 type name = string | "Support"
