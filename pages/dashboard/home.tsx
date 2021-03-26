@@ -82,7 +82,9 @@ const Home = (props:any) => {
                 background: "rgba(24, 119, 242, 0.05)",
                 minWidth:"400px"
             }} onClick={()=>{setPage("pdf")}}>
-                <span> <ion-icon name="eye-outline" style={{color: "#1877F2", fontSize: 24, marginTop:"4px" }}/></span>
+                <span>
+                 {/* <ion-icon name="eye-outline" style={{color: "#1877F2", fontSize: 24, marginTop:"4px" }}/> */}
+                 </span>
                 <span style={{marginLeft:"10px", color: "#1877F2"}}><b>View Attached Document</b></span>
             </div>
 
