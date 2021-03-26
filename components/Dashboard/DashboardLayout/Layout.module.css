@@ -11,6 +11,8 @@
     flex-direction: column;
     flex: 1;
     padding: 4rem var(--container-padding);
+    margin-left:5.4rem;
+    overflow-x:hidden
 }
 
 

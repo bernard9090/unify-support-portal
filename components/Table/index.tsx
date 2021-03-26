@@ -21,6 +21,9 @@ interface TableProps {
 const Table = (props:TableProps) => {
 
 
+const rowClicked = (item) => {
+props.onRowClick(item)
+}
 
 
     return (
@@ -31,10 +34,10 @@ const Table = (props:TableProps) => {
             {
                 props.data.map((item, index) => (
                     <TableRow key={index}>
-                        <div className={style.table__row_item}><input type="checkbox"/> <span style={{display:"flex", flex:1, marginLeft:"1rem"}}  onClick={props.onRowClick} >{item.senderId}</span></div>
-                        <div  onClick={props.onRowClick} className={style.table__row_item}>{item.date}</div>
-                        <div  onClick={props.onRowClick} className={style.table__row_item}>{item.msisdn}</div>
-                        <div  onClick={props.onRowClick} className={style.table__row_item}><Label text={item.status} color={"red"}/></div>
+                        <div className={style.table__row_item}><input type="checkbox"/> <span style={{display:"flex", flex:1, marginLeft:"1rem"}}  onClick={()=>rowClicked(item)} >{item.name}</span></div>
+                        <div  onClick={()=>rowClicked(item)} className={style.table__row_item}>{item.date}</div>
+                        <div  onClick={()=>rowClicked(item)} className={style.table__row_item}>{item.msisdn}</div>
+                        <div  onClick={()=>rowClicked(item)} className={style.table__row_item}><Label text={item.approved} color={item.approved === "PENDING" ? "orange" : item.approved === "APPROVED" ? "green" :"red"}/></div>
                     </TableRow>
                 ))
 

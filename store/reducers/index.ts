@@ -1,11 +1,12 @@
 import {combineReducers} from "redux";
 import ExampleReducer from "./_reducer"
-import AuthReducer from "./authReducer"
 import authReducer from "./authReducer";
+import dashboardReducer from "./dashboardReducer"
 
 const rootReducer =  combineReducers({
     exampleReducer:ExampleReducer,
-    authReducer:authReducer
+    authReducer:authReducer,
+    dashboardReducer
 });
 
 export default rootReducer

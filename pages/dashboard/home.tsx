@@ -5,9 +5,10 @@ import {fetchAllSenderIDs} from "../api";
 import {useSelector, useDispatch, RootStateOrAny} from "react-redux";
 import {AuthAdmin} from "../@types";
 import {getToken} from "../../services/localService";
+import {setSenderIDS, setSelectedSenderID} from "../../store/actions/dashboardActions"
 
 
-interface SenderIdDetailsTypes {
+interface SenderIdDetailsType {
 
 }
 
@@ -15,11 +16,14 @@ interface SenderIdDetailsTypes {
 const Home = (props:any) => {
 
     const dispatch = useDispatch();
-    const user:AuthAdmin = useSelector((state: RootStateOrAny) => state.authReducer.user);
+    
     let [showModal, setShowModal] = useState(false);
     let [selectedItem, setSelectedItem] = useState({});
     const [page, setPage] = useState("review");
     const [loading, setLoading] = useState(false);
+
+    const user:AuthAdmin = useSelector((state: RootStateOrAny) => state.authReducer.user);
+    const {senderIds, selectedSenderId} = useSelector((state: RootStateOrAny) => state.dashboardReducer)
 
 
     useEffect(()=>{
@@ -28,6 +32,8 @@ const Home = (props:any) => {
 
         fetchAllSenderIDs().then(resp => {
             console.log(resp)
+            const {result} = resp
+            dispatch(setSenderIDS(result))
         }).catch(error => {
             console.log(error)
         }) ;
@@ -45,7 +51,7 @@ const Home = (props:any) => {
 
             }}>
                 <span style={{display:"flex", flex:1}}><b>Sender ID</b></span>
-                <span style={{display:"flex", flex:2}}>Sender ID</span>
+                <span style={{display:"flex", flex:2}}>{selectedSenderId.name}</span>
             </div>
 
 
@@ -168,25 +174,14 @@ const Home = (props:any) => {
                                    marginTop:"2rem"
                                }}>
                                    <Table
-                                       onRowClick={()=>{
+                                       onRowClick={(item)=>{
                                            setPage("review");
-                                           setShowModal(true)
+                                           setShowModal(true);
+                                           dispatch(setSelectedSenderID(item))
+
                                        }}
                                        headers={["Sender ID", "Date", "MSISDN", "Status"]}
-                                       data={[
-                                   {
-                                       senderId:"Sender ID 1",
-                                       date:"31st March 2021",
-                                       msisdn:"+233542199525",
-                                       status:"PENDING"
-                                   },
-                                   {
-                                       senderId:"Sender ID 1",
-                                       date:"30th March 2021",
-                                       msisdn:"+233501541341",
-                                       status:"PENDING"
-                                   }
-                                       ]} />
+                                       data={senderIds} />
                                </div>
                            </Card>
                        </div>
