@@ -19,8 +19,19 @@ export default function Home() {
     const [email, setEmail] = React.useState("");
     const [password, setPassword] = React.useState("");
     const [loading, setLoading] = React.useState(false);
+    const [emailError, setEmailError] = React.useState(false);
+    const [passwordError, setPasswordError] = React.useState(false);
 
     const attemptLogin = () => {
+        if(email === ""){
+            setEmailError(true)
+            return;
+        }
+        if(password === ""){
+            setPasswordError(true)
+            return;
+        }
+
         setLoading(true);
         login({email, password}).then((data)=>{
             console.log(data);
@@ -29,7 +40,7 @@ export default function Home() {
             Router.push("/dashboard/home")
 
         }).catch(error => {
-            addToast("Custom toast", {
+            addToast("Error logging in, please check your credentials", {
                 appearance:"error",
                 autoDismiss:true
             })
@@ -54,7 +65,7 @@ export default function Home() {
                 onChange:(e)=>{setEmail(e.target.value)}
             }}
 
-                   error={false}
+                   error={emailError}
                    errorString={"Email address cannot be empty"}
                    useLabel={true}
                    label={"Email Address"}
@@ -69,7 +80,7 @@ export default function Home() {
                     onChange:(e)=>{setPassword(e.target.value)}
                 }}
 
-                   error={false}
+                   error={passwordError}
                    errorString={"Please enter password"}
                    useLabel={true}
                    label={"Password"}
@@ -87,16 +98,6 @@ export default function Home() {
                     attemptLogin()
                 }}
                 loading={loading}/>
-
-            {/*<Button*/}
-            {/*    style={{width:300, margin:16}}*/}
-            {/*    inverse={true}*/}
-            {/*    color={CONSTANTS.COLOR_PRIMARY}*/}
-            {/*    text={"Loading"}*/}
-            {/*    textColor={CONSTANTS.COLOR_PRIMARY}*/}
-            {/*    loading={true}/>*/}
-
-
         </div>
     )
 }

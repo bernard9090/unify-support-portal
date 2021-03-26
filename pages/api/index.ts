@@ -13,7 +13,11 @@ export const fetchAllSenderIDs = async () => {
             "Authorization":""+getToken()
         }
     });
-    return data.json()
+    if(data.ok){
+        return data.json()
+    }else{
+        throw Error(data.statusText);
+    }
 };
 
 
@@ -25,7 +29,12 @@ export const approveSenderId = async (senderId:string, status:string) =>{
             "Authorization":""+getToken()
         }
     });
-    return data.json()
+    if(data.ok){
+        return data.json()
+    }else{
+        throw Error(data.statusText);
+    }
+   
 };
 
 
@@ -39,5 +48,10 @@ export const login = async (data:LoginData) => {
             'Content-Type': 'application/json'
         }
     });
-    return response.json()
+    if(response.ok){
+       return response.json()
+    }else{
+        throw Error(response.statusText);
+    }
+    
 };

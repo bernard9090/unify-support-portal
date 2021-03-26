@@ -2,9 +2,10 @@ import React, {useState, useEffect} from "react"
 import Head from "next/head"
 import {Dashboard, Card, Input, Table, Modal, Button, PDFReader} from "components"
 import {fetchAllSenderIDs} from "../api";
-import {useSelector, useDispatch} from "react-redux";
+import {useSelector, useDispatch, RootStateOrAny} from "react-redux";
 import {AuthAdmin} from "../@types";
 import {getToken} from "../../services/localService";
+
 
 interface SenderIdDetailsTypes {
 
@@ -14,7 +15,7 @@ interface SenderIdDetailsTypes {
 const Home = (props:any) => {
 
     const dispatch = useDispatch();
-    const user:AuthAdmin = useSelector((state) => state.authReducer.user);
+    const user:AuthAdmin = useSelector((state: RootStateOrAny) => state.authReducer.user);
     let [showModal, setShowModal] = useState(false);
     let [selectedItem, setSelectedItem] = useState({});
     const [page, setPage] = useState("review");
@@ -27,7 +28,9 @@ const Home = (props:any) => {
 
         fetchAllSenderIDs().then(resp => {
             console.log(resp)
-        });
+        }).catch(error => {
+            console.log(error)
+        }) ;
     }, []);
 
 
