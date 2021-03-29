@@ -7,9 +7,9 @@ case "$1" in
 	start)
 		  echo "Starting $PROJECT_NAME"
 		    yarn
-		      yarn run build
-		        serve -s build -l $PORT -n &
-			  ps aux | grep -v grep | grep "/bin/serve -s build -l $PORT"  | awk '{print $2}' > $pid_file
+		      yarn run prod
+		        yarn run start -p $PORT -n &
+			  ps aux | grep -v grep | grep "yarn run start -p $PORT"  | awk '{print $2}' > $pid_file
 			    pid=$(cat $pid_file)
 			      echo "Started $PROJECT_NAME WITH PID: $pid on port: $PORT"
 			        ;;
@@ -24,9 +24,9 @@ case "$1" in
 					      echo "Stopped $PROJECT_NAME: $(cat $pid_file)"
 					        echo "Starting $PROJECT_NAME"
 						  yarn
-						    yarn run build
-						      serve -s build -l $PORT -n &
-						        ps aux | grep -v grep | grep "/bin/serve -s build -l $PORT"  | awk '{print $2}' > $pid_file
+						    yarn run prod
+						      yarn run start -p $PORT -n &
+						        ps aux | grep -v grep | grep "yarn run start -p $PORT"  | awk '{print $2}' > $pid_file
 							  pid=$(cat $pid_file)
 							    echo "Started $PROJECT_NAME WITH PID: $pid on port: $PORT"
 							      ;;
