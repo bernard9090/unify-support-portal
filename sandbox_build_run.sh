@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 PROJECT_DIR="/var/www/sandbox/unify-support-portal"
 pid_file="$PROJECT_DIR/app.pid"
-PROJECT_NAME="USSD portal React"
+PROJECT_NAME="Unify Support"
 PORT=7990
 case "$1" in
 	start)
@@ -15,12 +15,12 @@ case "$1" in
 			        ;;
 			stop)
 				  echo "Stopping $PROJECT_NAME"
-				    kill -9 $(cat $pid_file)
+				    kill -9 $(lsof -t -i:$PORT)
 				      echo "Stopped $PROJECT_NAME: $(cat $pid_file)"
 			 	        ;;
 				restart)
 					  echo "Stopping $PROJECT_NAME"
-					    kill -9 $(cat $pid_file)
+					    kill -9 $(lsof -t -i:$PORT)
 					      echo "Stopped $PROJECT_NAME: $(cat $pid_file)"
 					        echo "Starting $PROJECT_NAME"
 						  yarn
