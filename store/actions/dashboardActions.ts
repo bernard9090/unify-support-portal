@@ -5,7 +5,7 @@ export const setSenderIDS = (ids:any) => ({
     data:ids
 })
 
-export const setSelectedSenderID = (senderId) => ({
+export const setSelectedSenderID = (senderId:any) => ({
   type:TYPES.SET_SELECTED_SENDER_ID,
   data:senderId
 })
