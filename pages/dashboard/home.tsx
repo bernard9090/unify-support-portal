@@ -109,7 +109,7 @@ const Home = (props: any) => {
         }}
       >
         <span>
-          <span style={{ color: "red" }}>CLOSE</span>
+          {/* <span style={{ color: "red" }}>CLOSE</span> */}
           {/* <ion-icon name="eye-outline" style={{color: "#1877F2", fontSize: 24, marginTop:"4px" }}/> */}
         </span>
         <span style={{ marginLeft: "10px", color: "#1877F2" }}>

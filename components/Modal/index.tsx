@@ -33,10 +33,11 @@ const ModalContainer = (props: ModalProps) => {
               position: "absolute",
               top: 32,
               right: 32,
+              cursor: "pointer",
             }}
             onClick={props.close}
-                  >
-                      <span style={{color:"red"}}>CLOSE</span>
+          >
+            <span style={{ color: "red" }}>X</span>
             {/* <ion-icon name="close-outline" style={{color: "red", fontSize: 30, cursor:"pointer"}}/> */}
           </span>
         </div>
