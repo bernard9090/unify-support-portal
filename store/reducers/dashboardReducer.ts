@@ -1,5 +1,5 @@
 import * as TYPES from "../types"
-import {AuthAdmin} from "../../pages/@types";
+import {AuthAdmin} from "../../types/@types";
 
 const initialState = {
     senderIds: [],

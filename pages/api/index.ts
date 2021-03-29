@@ -1,4 +1,4 @@
-import {LoginData} from "../@types";
+import {LoginData} from "../../types/@types";
 import {getToken} from "../../services/localService";
 
 const apiEndpoint = process.env.API_ENDPOINT;

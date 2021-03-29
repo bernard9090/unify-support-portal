@@ -3,7 +3,6 @@ import Router from 'next/router'
 import styles from '../styles/Home.module.css'
 import {Button, Input} from "components";
 import {useSelector, useDispatch} from "react-redux"
-import {exampleAction} from "actions/exampleAction/";
 import CONSTANTS from "../assets/constants"
 import {login} from "./api";
 import {useToasts} from "react-toast-notifications";

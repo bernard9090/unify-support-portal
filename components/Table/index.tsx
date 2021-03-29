@@ -9,20 +9,22 @@ interface TableData {
     senderId:string,
     date:string,
     msisdn:string,
-    status: string
+    status: string,
+    approved: string,
+    name:string
 }
 
 interface TableProps {
     headers:Array<string>
     data:Array<TableData>
-    onRowClick:()=>void
+    onRowClick:(item: TableData)=>void
 }
 
-const Table = (props:TableProps) => {
+const Table = (props: TableProps) => {
 
 
-const rowClicked = (item) => {
-props.onRowClick(item)
+const rowClicked = (item: any) => {
+     props.onRowClick(item)
 }
 
 

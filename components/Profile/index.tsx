@@ -1,6 +1,6 @@
 import React from "react"
 import style from "./Profile.module.css"
-import {AuthAdmin} from "../../pages/@types";
+import {AuthAdmin} from "../../types/@types";
 import {useSelector, RootStateOrAny} from "react-redux";
 import {generateInitials} from "../../services/localService";
 

@@ -3,7 +3,7 @@ import Head from "next/head"
 import {Dashboard, Card, Input, Table, Modal, Button, PDFReader} from "components"
 import {fetchAllSenderIDs} from "../api";
 import {useSelector, useDispatch, RootStateOrAny} from "react-redux";
-import {AuthAdmin} from "../@types";
+import {AuthAdmin} from "../../types/@types";
 import {getToken} from "../../services/localService";
 import {setSenderIDS, setSelectedSenderID} from "../../store/actions/dashboardActions"
 
