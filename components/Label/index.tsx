@@ -1,5 +1,5 @@
 import React from "react"
-import style from "./Label.module.css"
+import style from "../../styles/Label.module.css"
 
 
 interface LabelProps {

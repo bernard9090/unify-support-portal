@@ -1,13 +1,12 @@
 import {LoginData} from "../../types/@types";
 import {getToken} from "../../services/localService";
 
-const apiEndpoint = process.env.API_ENDPOINT;
 const endpoint = "http://unify_test.rancardmobility.com";
 
 
 
 export const fetchAllSenderIDs = async () => {
-    const data = await fetch(`${endpoint}/api/v2/campaign/senderIds`,{
+    const data = await fetch(`${endpoint}/api/v2/campaign/rancard/admin/senderIds`,{
         headers:{
             'Content-Type': 'application/json',
             "Authorization":""+getToken()

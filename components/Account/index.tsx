@@ -1,5 +1,5 @@
 import React from "react"
-import style from  "./Account.module.css"
+import style from "../../styles/Account.module.css"
 
 
 type name = string | "Support"

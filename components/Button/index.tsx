@@ -1,5 +1,5 @@
 import * as React from "react";
-import style from "./Button.module.css"
+import style from "../../styles/Button.module.css"
 import {ClipLoader} from "react-spinners"
 
 interface ButtonProps {

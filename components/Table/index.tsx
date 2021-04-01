@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Table.module.css"
+import style from "../../styles/Table.module.css"
 import TableHeader from "./TableHeader"
 import TableRow from "./TableRow"
 import {Label} from "components"

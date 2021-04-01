@@ -1,5 +1,5 @@
 import React from "react"
-import styles from "./Table.module.css"
+import styles from "../../styles/Table.module.css"
 
 
 interface TableHeaderProps {
