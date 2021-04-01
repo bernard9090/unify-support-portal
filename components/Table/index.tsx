@@ -7,7 +7,7 @@ import {Label} from "components"
 
 interface TableData {
     senderId:string,
-    date:string,
+    brand:string,
     msisdn:string,
     status: string,
     approved: string,
@@ -36,8 +36,9 @@ const rowClicked = (item: any) => {
             {
                 props.data.map((item, index) => (
                     <TableRow key={index}>
-                        <div className={style.table__row_item}><input type="checkbox"/> <span style={{display:"flex", flex:1, marginLeft:"1rem"}}  onClick={()=>rowClicked(item)} >{item.name}</span></div>
-                        <div  onClick={()=>rowClicked(item)} className={style.table__row_item}>{item.date}</div>
+                        <div className={style.table__row_item}><input type="checkbox"/>
+                            <span style={{display:"flex", flex:1, marginLeft:"1rem"}}  onClick={()=>rowClicked(item)} >{item.senderId}</span></div>
+                        <div  onClick={()=>rowClicked(item)} className={style.table__row_item}>{item.brand}</div>
                         <div  onClick={()=>rowClicked(item)} className={style.table__row_item}>{item.msisdn}</div>
                         <div  onClick={()=>rowClicked(item)} className={style.table__row_item}><Label text={item.approved} color={item.approved === "PENDING" ? "orange" : item.approved === "APPROVED" ? "green" :"red"}/></div>
                     </TableRow>

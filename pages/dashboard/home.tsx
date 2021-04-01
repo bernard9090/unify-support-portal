@@ -9,7 +9,7 @@ import {
   Button,
   PDFReader,
 } from "components";
-import { fetchAllSenderIDs } from "../api";
+import { fetchAllSenderIDs, approveSenderId } from "../api";
 import { useSelector, useDispatch, RootStateOrAny } from "react-redux";
 import { AuthAdmin } from "../../types/@types";
 import { getToken } from "../../services/localService";
@@ -17,16 +17,21 @@ import {
   setSenderIDS,
   setSelectedSenderID,
 } from "../../store/actions/dashboardActions";
+import {useToasts} from "react-toast-notifications";
+
 
 interface SenderIdDetailsType {}
 
 const Home = (props: any) => {
   const dispatch = useDispatch();
+    const {addToast} = useToasts();
 
-  let [showModal, setShowModal] = useState(false);
+
+    let [showModal, setShowModal] = useState(false);
   let [selectedItem, setSelectedItem] = useState({});
   const [page, setPage] = useState("review");
   const [loading, setLoading] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const user: AuthAdmin = useSelector(
     (state: RootStateOrAny) => state.authReducer.user
@@ -35,23 +40,36 @@ const Home = (props: any) => {
     (state: RootStateOrAny) => state.dashboardReducer
   );
 
-  useEffect(() => {
-    const token = getToken();
-    console.log(token);
-
-    fetchAllSenderIDs()
-      .then((resp) => {
-        console.log(resp);
-        const { result } = resp;
-        dispatch(setSenderIDS(result));
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+  useEffect( () => {
+      fetchAllAdimSenderIds()
   }, []);
 
+  const  fetchAllAdimSenderIds =  () => {
+      const token = getToken();
+      console.log(token);
+
+      fetchAllSenderIDs()
+          .then((resp) => {
+              const { result } = resp;
+              console.log(result);
+              const sorted = result.sort((a:any, b:any) => {
+                  if(a.approved === "PENDING"){
+                      return -1
+                  }
+                  else if(b.approved === "APPROVED"){
+                      return 1
+                  }else
+                      return 0
+              });
+              dispatch(setSenderIDS(sorted));
+          })
+          .catch((error) => {
+              console.log(error);
+          });
+  };
+
   // @ts-ignore
-  const SenderIDDetailsPage = (senderId: SenderIdDetailsTypes) => (
+  const SenderIDDetailsPage = () => (
     <div>
       <div
         style={{
@@ -63,7 +81,7 @@ const Home = (props: any) => {
           <b>Sender ID</b>
         </span>
         <span style={{ display: "flex", flex: 2 }}>
-          {selectedSenderId.name}
+          {selectedSenderId.senderId}
         </span>
       </div>
 
@@ -76,7 +94,7 @@ const Home = (props: any) => {
         <span style={{ display: "flex", flex: 1 }}>
           <b>MSISDN</b>
         </span>
-        <span style={{ display: "flex", flex: 2 }}>Sender ID</span>
+        <span style={{ display: "flex", flex: 2 }}>{selectedSenderId.msisdn}</span>
       </div>
 
       <div
@@ -86,9 +104,9 @@ const Home = (props: any) => {
         }}
       >
         <span style={{ display: "flex", flex: 1 }}>
-          <b>Registration</b>
+          <b>Brand</b>
         </span>
-        <span style={{ display: "flex", flex: 2 }}>Sender ID</span>
+        <span style={{ display: "flex", flex: 2 }}>{selectedSenderId.brand}</span>
       </div>
 
       <div
@@ -141,9 +159,28 @@ const Home = (props: any) => {
           loading={loading}
           onClick={() => {
             setLoading(true);
-            setTimeout(() => {
-              setLoading(false);
-            }, 3000);
+            const {sid, senderId} = selectedSenderId;
+            approveSenderId(senderId, "APPROVED").then(async (res) => {
+                console.log(res);
+                addToast("SenderId has been approved", {
+                    appearance:"success",
+                    autoDismiss:true
+                });
+                await fetchAllAdimSenderIds();
+            }).catch(e => {
+                console.log(e);
+                addToast("Error approving Sender ID", {
+                    appearance:"error",
+                    autoDismiss:true
+                });
+            }).finally( ()=>{
+
+                setLoading(false)
+            })
+
+            // setTimeout(() => {
+            //   setLoading(false);
+            // }, 3000);
           }}
           style={{
             padding: "0 4rem",
@@ -227,7 +264,10 @@ const Home = (props: any) => {
                   useLabel={false}
                   error={false}
                   inputProps={{
-                    placeholder: "Search Item",
+                    placeholder: "Search by Brand",
+                      onChange:(e:any)=>{
+                        setSearchTerm(e.target.value)
+                      }
                   }}
                 />
 
@@ -242,8 +282,8 @@ const Home = (props: any) => {
                       setShowModal(true);
                       dispatch(setSelectedSenderID(item));
                     }}
-                    headers={["Sender ID", "Date", "MSISDN", "Status"]}
-                    data={senderIds}
+                    headers={["Sender ID", "Brand", "MSISDN", "Status"]}
+                    data={senderIds.filter((item:any) =>  (item.brand && item.brand.toLowerCase().startsWith(searchTerm.toLowerCase())))}
                   />
                 </div>
               </Card>
@@ -257,14 +297,17 @@ const Home = (props: any) => {
             setShowModal(false);
           }}
         >
-          <span className={"text-header"}>Review Sender ID</span>
+          <span>
+
+              <span className={"text-header"}>Review Sender ID</span>
+          </span>
 
           {page === "review" ? (
             <SenderIDDetailsPage />
           ) : page === "reject" ? (
             <RejectSenderIDReason />
           ) : (
-            <PDFReader />
+            <PDFReader back={()=> setPage("review")}/>
           )}
         </Modal>
       </main>
