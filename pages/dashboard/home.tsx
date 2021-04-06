@@ -33,9 +33,8 @@ const Home = (props: any) => {
   const [loading, setLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
-  const user: AuthAdmin = useSelector(
-    (state: RootStateOrAny) => state.authReducer.user
-  );
+
+
   const { senderIds, selectedSenderId } = useSelector(
     (state: RootStateOrAny) => state.dashboardReducer
   );

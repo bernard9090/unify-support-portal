@@ -2,6 +2,8 @@ import React from "react"
 import style from "../../../styles/Layout.module.css"
 import Sidebar from "../Sidebar"
 import Header from "../Header"
+import { useSelector, useDispatch, RootStateOrAny } from "react-redux";
+import { AuthAdmin } from "../../../types/@types";
 
 
 
@@ -11,6 +13,11 @@ import Header from "../Header"
 
 const Layout = (props:any) => {
 
+    const user: AuthAdmin = useSelector(
+    (state: RootStateOrAny) => state.authReducer.user
+  );
+
+    console.log(user)
 
     return(
         <div className={style.wrapper}>
@@ -20,7 +27,7 @@ const Layout = (props:any) => {
 
 
             <div className={style.container}>
-                <Header/>
+                <Header user={user}/>
                 <div className={style.content}>
                     {props.children}
                 </div>

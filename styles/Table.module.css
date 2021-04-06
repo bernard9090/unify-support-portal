@@ -49,3 +49,13 @@
   background: #f9f9f9;
   cursor: pointer;
 }
+
+.page_btn{
+  transition: all 250ms ease;
+}
+
+
+.page_btn:hover{
+  transform: scale(1.2);
+  font-weight: bold;
+}
