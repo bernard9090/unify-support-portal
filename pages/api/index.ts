@@ -33,7 +33,6 @@ export const approveSenderId = async (senderId:string, status:string) =>{
     }else{
         throw Error(data.statusText);
     }
-   
 };
 
 
