@@ -1,7 +1,7 @@
 .modal__container{
     position: absolute;
-    backdrop-filter: blur(4px);
-    background: rgba(44, 44, 44, 0.64);
+
+    background: rgba(44, 44, 44, 0.60);
     top: 0;
     left: 0;
     right: 0;

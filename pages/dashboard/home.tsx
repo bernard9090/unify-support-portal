@@ -65,6 +65,29 @@ const Home = () => {
           });
   };
 
+  const updateSenderId = (status: string) => {
+    setLoading(true);
+            const {sid} = selectedSenderId;
+            approveSenderId(sid, status).then(async (res) => {
+                console.log(res);
+                addToast(
+                  "SenderId has been updated", {
+                    appearance:"success",
+                    autoDismiss:true
+                });
+                await fetchAllAdimSenderIds();
+            }).catch(e => {
+                console.log("approve error", e);
+                addToast("Error updating Sender ID", {
+                    appearance:"error",
+                    autoDismiss:true
+                });
+            }).finally( ()=>{
+
+                setLoading(false)
+            })
+  }
+
   // @ts-ignore
   const SenderIDDetailsPage = () => (
     <div>
@@ -155,29 +178,7 @@ const Home = () => {
           text={"Accept"}
           loading={loading}
           onClick={() => {
-            setLoading(true);
-            const {sid, senderId} = selectedSenderId;
-            approveSenderId(sid, "APPROVED").then(async (res) => {
-                console.log(res);
-                addToast("SenderId has been approved", {
-                    appearance:"success",
-                    autoDismiss:true
-                });
-                await fetchAllAdimSenderIds();
-            }).catch(e => {
-                console.log("approve error", e);
-                addToast("Error approving Sender ID", {
-                    appearance:"error",
-                    autoDismiss:true
-                });
-            }).finally( ()=>{
-
-                setLoading(false)
-            })
-
-            // setTimeout(() => {
-            //   setLoading(false);
-            // }, 3000);
+            updateSenderId("APPROVED")
           }}
           style={{
             padding: "0 4rem",
@@ -232,6 +233,10 @@ const Home = () => {
 
         <Button
           text={"Send"}
+          onClick={()=>{
+            updateSenderId("REJECTED")
+          }}
+          loading={loading}
           style={{
             padding: "0 4rem",
             height: 44,

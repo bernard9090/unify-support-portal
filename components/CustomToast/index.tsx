@@ -17,7 +17,7 @@ const CustomToast = (props: any) => {
 
     return (
         <DefaultToast {...props}>
-        <div style={{ width:"100%", }}>
+        <div style={{ width:"100%",  zIndex:10000}}>
             {props.children}
         </div>
         </DefaultToast>
