@@ -6,7 +6,7 @@ PORT=7990
 case "$1" in
 	start)
 		  echo "Starting $PROJECT_NAME"
-		    yarn
+		    yarn --ignore-engines
 		      yarn run prod
 		        yarn run start -p $PORT  &
 			  ps aux | grep -v grep | grep "yarn run start -p $PORT"  | awk '{print $2}' > $pid_file
@@ -23,7 +23,7 @@ case "$1" in
 					    kill -9 $(lsof -t -i:$PORT)
 					      echo "Stopped $PROJECT_NAME: $(cat $pid_file)"
 					        echo "Starting $PROJECT_NAME"
-						  yarn
+						  yarn --ignore-engines
 						    yarn run prod
 						      yarn run start -p $PORT &
 						        ps aux | grep -v grep | grep "yarn run start -p $PORT"  | awk '{print $2}' > $pid_file
