@@ -22,7 +22,7 @@ export const fetchAllSenderIDs = async () => {
 
 
 export const approveSenderId = async (senderId:string, status:string) =>{
-    const data = await fetch(`${endpoint}/api/v2/campaign/senderId/approve?sId=${senderId}$status=${status}`,{
+    const data = await fetch(`${endpoint}/api/v2/campaign/senderId/approve?sId=${senderId}&status=${status}`,{
         headers:{
             'Content-Type': 'application/json',
             "Authorization":""+getToken()

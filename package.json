@@ -15,6 +15,7 @@
     "@types/react-redux": "^7.1.16",
     "@types/react-toast-notifications": "^2.4.0",
     "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
     "next": "^10.0.6",
     "pdf-viewer-reactjs": "^2.2.3",
     "pdfjs-dist": "^2.6.347",

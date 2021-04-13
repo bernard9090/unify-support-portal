@@ -9,20 +9,18 @@ import {
   Button,
   PDFReader,
 } from "components";
-import { fetchAllSenderIDs, approveSenderId } from "../api";
+import { fetchAllSenderIDs } from "../api";
 import { useSelector, useDispatch, RootStateOrAny } from "react-redux";
-import { AuthAdmin } from "../../types/@types";
 import { getToken } from "../../services/localService";
 import {
   setSenderIDS,
   setSelectedSenderID,
-} from "../../store/actions/dashboardActions";
+} from "actions/dashboardActions";
 import {useToasts} from "react-toast-notifications";
+import {approveSenderId, getFile} from "../../services/restService"
+import {AxiosError, AxiosResponse} from "axios";
 
-
-interface SenderIdDetailsType {}
-
-const Home = (props: any) => {
+const Home = () => {
   const dispatch = useDispatch();
     const {addToast} = useToasts();
 
@@ -159,7 +157,7 @@ const Home = (props: any) => {
           onClick={() => {
             setLoading(true);
             const {sid, senderId} = selectedSenderId;
-            approveSenderId(senderId, "APPROVED").then(async (res) => {
+            approveSenderId(sid, "APPROVED").then(async (res) => {
                 console.log(res);
                 addToast("SenderId has been approved", {
                     appearance:"success",
@@ -167,7 +165,7 @@ const Home = (props: any) => {
                 });
                 await fetchAllAdimSenderIds();
             }).catch(e => {
-                console.log(e);
+                console.log("approve error", e);
                 addToast("Error approving Sender ID", {
                     appearance:"error",
                     autoDismiss:true
@@ -279,6 +277,12 @@ const Home = (props: any) => {
                     onRowClick={(item) => {
                       setPage("review");
                       setShowModal(true);
+                      console.log(item)
+                        getFile(item.idLocation).then((resp:AxiosResponse)=>{
+                            console.log("id location data", resp)
+                        }).catch((er:AxiosError) => {
+                            console.log(er)
+                        })
                       dispatch(setSelectedSenderID(item));
                     }}
                     headers={["Sender ID", "Brand", "MSISDN", "Status"]}

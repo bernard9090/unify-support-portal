@@ -17,7 +17,6 @@ const Layout = (props:any) => {
     (state: RootStateOrAny) => state.authReducer.user
   );
 
-    console.log(user)
 
     return(
         <div className={style.wrapper}>

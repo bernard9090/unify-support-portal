@@ -11,7 +11,16 @@ interface TableData {
     msisdn:string,
     status: string,
     approved: string,
-    name:string
+    name:string,
+    brandId: string
+    email: string
+    endDate: string
+    idLocation: string
+    idType: string
+    registrationDate: string
+    sid: string
+    startDate: string
+    type: string
 }
 
 interface TableProps {
@@ -52,9 +61,8 @@ const rowClicked = (item: any) => {
 
            </div>
 
-           <span style={{
-               height:100,
-               marginTop:10,
+           <div style={{
+               marginTop:20,
            }}>
                <span className={style.page_btn} onClick={()=>{
                    if(start - UPDATE_COUNT >= 0){
@@ -77,7 +85,7 @@ const rowClicked = (item: any) => {
                    color:props.data.length > start + UPDATE_COUNT ? "black" : "grey",
                    cursor:props.data.length > start + UPDATE_COUNT ? "pointer" : "not-allowed"
                }}>Next{" >"}</span>
-           </span>
+           </div>
        </div>
     )
 
