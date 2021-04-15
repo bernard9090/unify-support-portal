@@ -9,11 +9,11 @@ const DocumentRenderer = (props:any) => (
        maxHeight:"80%",
        overflowY:"scroll"
    }}>
-       {/*<PDFViewer*/}
-       {/*    document={{*/}
-       {/*        url: 'http://www.africau.edu/images/default/sample.pdf',*/}
-       {/*    }}*/}
-       {/*/>*/}
+       <PDFViewer
+           document={{
+            url: 'http://unify_test.rancardmobility.com/api/v2/file/download/3',
+        }}
+       />
 
        <Button
            onClick={() => {
