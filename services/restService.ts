@@ -28,3 +28,11 @@ export const getFile = (filename:string) => {
         }
     })
 }
+
+export const loadFile = (file:string) => {
+    return axios({
+        method:"GET",
+        url:`http://unify_test.rancardmobility.com/api/v2/files/retrieve/${file}`
+
+    })
+}

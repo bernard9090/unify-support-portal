@@ -17,7 +17,7 @@ import {
   setSelectedSenderID,
 } from "actions/dashboardActions";
 import {useToasts} from "react-toast-notifications";
-import {approveSenderId, getFile} from "../../services/restService"
+import {approveSenderId, getFile, loadFile} from "../../services/restService"
 import {AxiosError, AxiosResponse} from "axios";
 
 const Home = () => {
@@ -75,7 +75,7 @@ const Home = () => {
                     appearance:"success",
                     autoDismiss:true
                 });
-                await fetchAllAdimSenderIds();
+                const _ = await fetchAllAdimSenderIds();
             }).catch(e => {
                 console.log("approve error", e);
                 addToast("Error updating Sender ID", {
@@ -283,11 +283,7 @@ const Home = () => {
                       setPage("review");
                       setShowModal(true);
                       console.log(item)
-                        getFile(item.idLocation).then((resp:AxiosResponse)=>{
-                            console.log("id location data", resp)
-                        }).catch((er:AxiosError) => {
-                            console.log(er)
-                        })
+                       
                       dispatch(setSelectedSenderID(item));
                     }}
                     headers={["Sender ID", "Brand", "MSISDN", "Status"]}
@@ -315,7 +311,7 @@ const Home = () => {
           ) : page === "reject" ? (
             <RejectSenderIDReason />
           ) : (
-            <PDFReader back={()=> setPage("review")}/>
+            <PDFReader file={selectedSenderId.idLocation} back={()=> setPage("review")}/>
           )}
         </Modal>
       </main>

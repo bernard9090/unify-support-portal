@@ -1,20 +1,24 @@
 import React from "react"
 import PDFViewer from 'pdf-viewer-reactjs'
 import {Button} from "components";
+import {PDFModalProps} from "types/@types"
 
-
-
-const DocumentRenderer = (props:any) => (
+const DocumentRenderer = (props:PDFModalProps) => (
    <div style={{
-       maxHeight:"80%",
-       overflowY:"scroll"
+      
    }}>
+       <div style={{
+           height:"70vh",
+           maxHeight:"90%",
+           overflowY:"scroll"
+       }}>
        <PDFViewer
            document={{
-            url: 'http://unify_test.rancardmobility.com/api/v2/file/download/3',
+            url: props.file,
         }}
-       />
+               />
 
+       </div>
        <Button
            onClick={() => {
                props.back()
@@ -24,6 +28,7 @@ const DocumentRenderer = (props:any) => (
                padding: "0 4rem",
                height: 44,
                color: "white",
+               marginTop:"1rem"
            }}
            color={"#252525"}
        />
