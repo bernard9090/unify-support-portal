@@ -38,7 +38,9 @@ const Home = () => {
   );
 
   useEffect( () => {
-      fetchAllAdimSenderIds()
+      setInterval(()=>{
+        fetchAllAdimSenderIds()
+      }, 60 * 1000)
   }, []);
 
   const  fetchAllAdimSenderIds =  () => {
