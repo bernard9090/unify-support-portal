@@ -1,7 +1,7 @@
 import {LoginData} from "../../types/@types";
 import {getToken} from "../../services/localService";
 
-const endpoint = "http://unify_test.rancardmobility.com";
+const endpoint = "http://unify.rancardmobility.com";
 
 
 

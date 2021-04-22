@@ -1,7 +1,7 @@
 import axios from "axios";
 import {getToken} from "./localService";
 
-const endpoint = "http://unify_test.rancardmobility.com";
+const endpoint = "https://unify-base.rancard.com";
 
 axios.defaults.headers =  {
     'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ export const getFile = (filename:string) => {
 export const loadFile = (file:string) => {
     return axios({
         method:"GET",
-        url:`http://unify_test.rancardmobility.com/api/v2/files/retrieve/${file}`
+        url:`${endpoint}/api/v2/files/retrieve/${file}`
 
     })
 }
